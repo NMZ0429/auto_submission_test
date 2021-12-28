@@ -30,8 +30,8 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
-          id: nmzbpn/test_github_action2
-          title: test_github_action2
+          id: nmzbpn/github_test
+          title: github_test
           code_file: ./build/script.py
           language: python
           kernel_type: script
