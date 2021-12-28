@@ -30,9 +30,7 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
-          # README.md says the slug is required, but it's the id
-          # https://github.com/harupy/push-kaggle-kernel/commit/266039f1ade2701a789e2c9b1e6cc360659edeff
-          id: {username}/{kernel_slug}
+          id: nmzbpn/petfinder-sample-pipeline
           title: test_submission
           code_file: ./build/script.py
           language: python
