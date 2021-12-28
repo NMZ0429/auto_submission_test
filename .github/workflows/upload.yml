@@ -30,7 +30,7 @@ jobs:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         with:
-          id: nmzbpn/petfinder-sample-pipeline
+          id: nmzbpn/test_github_action
           title: test_submission
           code_file: ./build/script.py
           language: python
