@@ -21,4 +21,4 @@ def run(command):
 
 
 run("python setup.py develop --install-dir /kaggle/working")
-run("python submission/main.py")
+run("python kaggle_petfinder/main.py")
